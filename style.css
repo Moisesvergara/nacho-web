@@ -92,12 +92,6 @@ nav > ul {
     display: table;
     width: 100%;
 }
-
-
-/*SEGUNDO NIVEL */
-/*nav li li { 
-    background-color: blue;
-}*/
 .sobre_mi_imagen {
     padding-left: 70px;
     width: 70%;
@@ -121,8 +115,9 @@ nav > ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    /*grid-template-areas:
-    "titulodecontacto formulario";*/
+
+
+    /****grid-template-areas:"titulodecontacto formulario"; ****/
 }
 .titulodecontacto {
     /* grid-area: titulodecontacto; */
