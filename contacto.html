@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="grid_container">
+
+    <header class="header">
+        <h1>Cris Nacho Produce</h1>
+    </header>
+
+    <nav class="navbar"> <img src="imagen/LOGO VIDEO 2.png" alt="logo" class="logo">
+        <ul class="nav_menu">
+            <li class="nav_menu_item"><a href="index.html" class="nav_menu_link_1">Inicio</a></li>
+            <li class="nav_menu_item"><a href="portafolio.html" class="nav_menu_link_1">Portafolio</a></li>
+            <li class="nav_menu_item"><a href="sobre_mi.html" class="nav_menu_link_1">Sobre Mí</a></li>
+            <li class="nav_menu_item"><a href="#" class="nav_menu_link_1">Contacto</a></li>  
+        </ul>
+    </nav>
+
+    <main class="main">
+
+        <div class="content_contacto">
+            <div  class="titulodecontacto">
+                <h4>Si deseas recibir más información de presupuestos escríbeme y en breve me pondre en contacto contigo, estaré encantado
+                    de concretar una cita, y si te da flojera rellenar el formulario me puedes escribir a instagram.
+                </h4>
+                <img class="sony" src="imagen/camara_sony.png" alt="">
+            </div>    
+            <div class="formulario">
+                <form action="/enviar-mensaje" method="POST">
+                    <label for="nombre">Nombre:</label><br />
+                    <input type="text" id="nombre" name="nombre" /><br />
+                    <label for="email">Email:</label><br />
+                    <input type="email" id="email" name="email" /><br />
+                    <label for="mensaje">Mensaje:</label><br />
+                    <textarea id="mensaje" name="mensaje"></textarea><br />
+                    <input type="submit" value="Enviar mensaje" />
+                </form>
+            </div>
+        </div>   			
+    </main>
+
+    <footer class="footer">Derechos Reservados &copy 2023 </footer>
+</body>
+</html>
