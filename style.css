@@ -1,11 +1,10 @@
 /*SELECTOR UNIVERSAL QUE AFECTA TODA LA PÁGINA */
-*{
+*{  
+    color:white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0; 
-    margin: 0;
-    
     text-transform: uppercase; /* propiedad que nos permite cambiar minusculas a mayusculas */
 }
 html {
@@ -31,7 +30,7 @@ body {
     grid-template-areas: 
     "header header header"
     "navbar  main   main "
-    "footer  footer footer ";
+    "navbar  footer footer ";
 }
 .header {
     grid-area: header;
@@ -47,8 +46,11 @@ img {
     width: 50%;
 }
 .navbar {
+    margin-top: 145px;
     grid-area: navbar;
-    background-color:black;
+    background-color:rgb(0, 0, 0);
+    position: fixed;
+    max-width: 200px;
 
 }
 .main {
@@ -121,7 +123,7 @@ nav > ul {
     /****grid-template-areas:"titulodecontacto formulario"; ****/
 }
 .titulodecontacto {
-    /* grid-area: titulodecontacto; */
+    color:red;
     background-color: black;
 }  
 .sony {
@@ -129,9 +131,7 @@ nav > ul {
     border-radius: 50%;
 }
 .formulario {
-    /*grid-area: formulario;*/
     background-color: black;
-
 }
 /*h4 {
     text-align:left;
@@ -241,3 +241,12 @@ input[type="submit"]:hover {
     }
   }
 
+
+  /**** Redes sociales ****/
+
+  .redes-sociales{
+	position: relative;
+	top: 80px;
+	z-index: 100;
+	left: 0;
+}
