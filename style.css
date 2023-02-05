@@ -55,7 +55,7 @@ img {
 }
 .main {
     grid-area: main;
-    background-color: black ;
+    background-color: rgb(0, 0, 0) ;
 }  
 .footer {
     grid-area: footer;
@@ -84,12 +84,7 @@ nav li a {
 
 /*PROPIEDAD DE HOVER APLICADA PARA LA  BARRA DE NAVEGACIÓN */
 
-/*.nav_menu li:hover .sub_menu{
-    display: block;
-}*/
-
-
-/* PRIMER NIVEL */
+/***** PRIMER NIVEL ****/
 nav > ul {
     background-color: black;
     display: table;
@@ -123,7 +118,6 @@ nav > ul {
     /****grid-template-areas:"titulodecontacto formulario"; ****/
 }
 .titulodecontacto {
-    color:red;
     background-color: black;
 }  
 .sony {
