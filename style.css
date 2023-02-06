@@ -99,10 +99,11 @@ nav > ul {
     border-radius: 50%;
 }
 .sobre_mi {
-    margin-left: 500px;
+    font-size: 1.3rem;
+    margin-left: 540px;
     padding: 100px;
     padding-left:20px;
-    padding-top: 50px;
+    padding-top: 100px;
     text-align: justify;
     word-spacing:10px; /*espacio entre palabras */
 }
